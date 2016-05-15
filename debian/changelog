@@ -1,0 +1,5 @@
+ruby-zk (1.9.6-1) trusty; urgency=medium
+
+  * Initial release
+
+ -- Neil Williams <neil@reddit.com>  Sun, 15 May 2016 02:28:40 +0000

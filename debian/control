@@ -1,0 +1,17 @@
+Source: ruby-zk
+Section: ruby
+Priority: optional
+Maintainer: Neil Williams <neil@reddit.com>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.6.1~)
+Standards-Version: 3.9.4
+Vcs-Git: git://github.com/reddit/ruby-zk
+Vcs-Browser: http://github.com/reddit/ruby-zk
+Homepage: https://github.com/zk-ruby/zk
+XS-Ruby-Versions: all
+
+Package: ruby-zk
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby, ruby-zookeeper
+Description: High-level wrapper around the zookeeper driver
+ A high-level wrapper around the zookeeper driver

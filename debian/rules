@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+export DH_RUBY_IGNORE_TESTS=all
+
+%:
+	dh $@ --buildsystem=ruby --with ruby
